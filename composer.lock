@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0324a855f2ccd1c9a02b98dba02e916",
+    "content-hash": "efba7775df324dee32fff445b42c5b2b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1269,21 +1269,21 @@
         },
         {
             "name": "laravel/octane",
-            "version": "v0.1.1",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/octane.git",
-                "reference": "f28fc04971e7cc3fa2b6d6f87181a71cf9a8b632"
+                "reference": "16229e80b6297ad6cda5a2456117e9df465e4f1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/octane/zipball/f28fc04971e7cc3fa2b6d6f87181a71cf9a8b632",
-                "reference": "f28fc04971e7cc3fa2b6d6f87181a71cf9a8b632",
+                "url": "https://api.github.com/repos/laravel/octane/zipball/16229e80b6297ad6cda5a2456117e9df465e4f1c",
+                "reference": "16229e80b6297ad6cda5a2456117e9df465e4f1c",
                 "shasum": ""
             },
             "require": {
                 "laminas/laminas-diactoros": "^2.5",
-                "laravel/framework": "^8.35",
+                "laravel/framework": "^8.37",
                 "php": "^8.0",
                 "symfony/psr-http-message-bridge": "^2.0"
             },
@@ -1294,7 +1294,8 @@
                 "orchestra/testbench": "^6.16",
                 "phpunit/phpunit": "^9.3",
                 "spatie/laravel-ray": "^1.14",
-                "spiral/roadrunner": "^2.0"
+                "spiral/roadrunner": "^2.0",
+                "swoole/ide-helper": "^4.6"
             },
             "bin": [
                 "bin/roadrunner-worker",
@@ -1337,7 +1338,7 @@
                 "issues": "https://github.com/laravel/octane/issues",
                 "source": "https://github.com/laravel/octane"
             },
-            "time": "2021-04-07T14:14:11+00:00"
+            "time": "2021-04-13T15:31:38+00:00"
         },
         {
             "name": "laravel/tinker",
