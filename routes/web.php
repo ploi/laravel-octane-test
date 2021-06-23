@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('exception', function () {
+    throw new \Exception('Wow');
+});
+
 Route::get('/test', 'TestController@home');
